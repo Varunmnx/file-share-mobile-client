@@ -78,7 +78,7 @@ export function getFileIcon(filename: string = '', mime: string = ''): string {
  * Extracts raw 32-64 char share token from user input.
  * Supports:
  * - Direct token: "a1b2c3d4e5f6..."
- * - Full URL: "http://localhost:5173/s/a1b2c3d4e5f6..."
+ * - Full URL: "https://file-share-web-client-two.vercel.app/s/a1b2c3d4e5f6..."
  * - Deep link: "filedrop://s/a1b2c3d4e5f6..."
  */
 export function extractToken(input: string): string {
